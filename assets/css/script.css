@@ -112,23 +112,69 @@ section {
     }
 }
 
-.tableau-biographie {
-    width: 80%;
-    height: 300px;
+/**** BIOGRAPHIE *****/
+
+.table-bio {
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.image-table-biographie {
-    width: 40%;
+
+.content-biographie {
+  width: 60%;
+  padding-right: 40px;
 }
+
+.tableau-biographie {
+  width: 40%;
+  background-color: #f8f9fa;
+  box-shadow: black;
+  padding-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+  .img-table {
+    max-width: 60%;
+    height: auto;
+  }
 
 .content-table-biographie {
-    width: 60%;
-    background-color: #010101;
-    flex-direction: column !important;
-    border: solid 2px red;
+    padding-top: 40px;
+}
+.content-biographie p {
+  margin-bottom: 20px;
+}
+  .info-gen {
+    text-align: center;
+    font-weight: bold;
+  }
+  .request {
+    font-weight: bold;
+  }
+
+@media (max-width: 900px) {
+  .tableau-biographie {
+    width: 100%;
+    order: -1;
+  }
+  .content-biographie {
+    margin-top: 40px;
+    width: 100%;
+    padding-right: 0px;
+  }
 }
 
 
-.muse-table {
-    width: 50%;
+/**** DISCOGRAPHIE *****/
+
+.title-discographie {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.title_albums {
+  margin-bottom: 25px;
+}
+
+.live-img {
+  width: 100%;
 }
