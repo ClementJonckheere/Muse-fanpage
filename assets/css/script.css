@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body {
+    background-color: #c9c8c8;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav {
+    background-color: #010101; 
+}
+
+main {
+    margin-top: 6vh;
+}
+
+.navbar-brand {
+    color: red;
+    padding-left: 25px;
+}
+
+.nav-link:hover {
+    color: red !important;
+    text-decoration: underline red !important;
+}
+
+#logo-muse {
+    height: 100px;
+    padding-left: 25px;
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+  }
+      .nav-item {
+          margin-right: 15px;
+      }
+  }
+@media (max-width: 992px) {
+    .navbar-nav {
+      justify-content: center !important;
+      text-align: center !important;
+    }
+    .nav-item {
+      margin-left: 0;
+    }
+}
