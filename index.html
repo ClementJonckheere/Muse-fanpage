@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/script.css" rel="stylesheet">
+    <link href="/assets/css/typographie.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,10 +30,7 @@
                         <a class="nav-link text-light" href="#discographie">Discographie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#video">Video</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#reseaux-sociaux">Reseaux sociaux</a>
+                        <a class="nav-link text-light" href="#video">Clips Video</a>
                     </li>
                 </ul>
             </div>
@@ -39,26 +38,33 @@
     </header>
 
     <main class="main-content" role="main">
-
         <div id="Accueil">
             <div class="container-accueil">
-                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="overlay-image" aria-hidden="true">
-                      </div>
-                      <div class="carousel-item active">
-                        <div class="container">
-                          <div class="content-carousel d-flex justify-content-center align-items-center">
-                            <h1 class="text-home">MUSE</h1>
-                            <p class="text-home">Artiste international</p>
+              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="overlay-image" aria-hidden="true">
+                  </div>
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div class="content-carousel d-flex flex-column justify-content-center">
+                        <div class="row">
+                            <div class="col-12">
+                              <h1 class="text-home text-center text-light">MUSE</h1>
+                            </div>
                           </div>
-                        </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <p class="text-home text-center text-light">Groupe Rock Anglais</p>
+                            </div>
+                          </div>
                       </div>
                     </div>
-                  </div>  <!-- <img id="logo-muse" src="img/image-logo-muse.webp" alt="image du logo du groupe muse" /> -->
+                  </div>
+                </div>
+              </div> 
             </div>
+          </div>
         </div>
-
         <section id="biographie">
             <div class="container-biographie">
                 <h2 class="title-biographie mb-5">Biographie</h2>
@@ -106,16 +112,31 @@
                                                              Dominic Howard,
                                                              Christopher Wolstenholme</td>
                                     </tr>
+                                    <tr>
+                                        <td class="request">Reseaux sociaux</td>
+                                        <td class="data"><div class="social-media-icon">
+                                            <div class="social-media-icons d-flex justify-content-start">
+                                                <div class="social-media-icon">
+                                                    <a class="icon-facebook" href="https://www.facebook.com/muse" target="_blank"><img class="image-icon" src="./assets/img/facebook.png" /></a>
+                                                </div>
+                                                <div class="social-media-icon">
+                                                    <a class="icon-twitter" href="https://twitter.com/muse" target="_blank"><img class="image-icon" src="./assets/img/twitter.png" /></a>
+                                                </div>
+                                                <div class="social-media-icon">
+                                                    <a class="icon-youtube" href="https://www.youtube.com/muse" target="_blank"><img class="image-icon" src="./assets/img/youtube.png" /></a>
+                                                </div>
+                                                <div class="social-media-icon">
+                                                    <a class="icon-spotify" href="https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI" target="_blank"><img class="image-icon" src="./assets/img/spotify.png" /></a>
+                                                </div>
+                                            </div>          
+                                        </td>
+                                    </tr>
                                 </table>
                             </div>
                     </div>
                 </div>
             </div>
-               
         </section>
-
-
-
         <section id="discographie">
             <div class="container-discographie">
                 <h2 class="title-discographie">Discographie</h2>
@@ -176,11 +197,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="live-discographie">
-                    <h3 class="title_albums">Lives</h3>
-                    <div class="container">
+                <div class="live-discographie mt-5 mb-4">
+                    <h3 class="title_albums mt-5 mb-4">Lives</h3>
+                    <div class="container mt-3 mb-5">
                         <div class="row">
-                          <div class="col-md-4">
+                          <div class="col-md-4 mb-3">
                             <div class="card bg-dark">
                               <div class="row no-gutters">
                                 <div class="col-md-6">
@@ -195,7 +216,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-md-4 mb-3">
                             <div class="card bg-dark">
                               <div class="row no-gutters">
                                 <div class="col-md-6">
@@ -210,7 +231,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-md-4 mb-3">
                             <div class="card bg-dark">
                               <div class="row no-gutters">
                                 <div class="col-md-6">
@@ -229,9 +250,11 @@
                       </div>
             </div>
         </section>
-
         <section id="video">
-            <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+            <div class="title-video">
+                <h2 class="mt-5">Clips video</h2>
+            </div>
+            <div id="videoCarousel" class="carousel slide mt-5">
                 <ol class="carousel-indicators">
                   <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#videoCarousel" data-slide-to="1"></li>
@@ -239,30 +262,44 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <video class="d-block w-100" controls>
+                    <video controls>
                       <source src="./assets/video/MUSE — The Dark Side.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
                     </video>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="title-music">Muse video music 1</h4>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <video class="d-block w-100" controls>
-                      <source src="./assets/video/MUSE — The Dark Side.mp4" type="video/mp4">
+                    <video controls>
+                      <source class="video" src="./assets/video/MUSE — The Dark Side.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
                     </video>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="title-music">Muse video music 2</h4>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <video class="d-block w-100" controls>
+                    <video controls>
                       <source src="./assets/video/MUSE — The Dark Side.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
                     </video>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4 class="title-music">Muse video music 3</h4>
+                    </div>
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
-        </section>
-
-        <section id="reseaux-sociaux">
-
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
         </section>
     </main>
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
