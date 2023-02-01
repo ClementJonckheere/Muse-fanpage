@@ -12,13 +12,13 @@ section {
 }
 
 .navbar-brand {
-    color: red;
+    color: #f8f9fa;
     padding-left: 25px;
 }
 
 .nav-link:hover {
-    color: red !important;
-    text-decoration: underline red !important;
+    color: rgba(255, 11, 11, 0.872) !important;
+    text-decoration: underline rgba(255, 11, 11, 0.872)!important;
 }
 
 #logo-muse {
